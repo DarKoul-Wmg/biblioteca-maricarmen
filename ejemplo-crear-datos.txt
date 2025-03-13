@@ -1,0 +1,10 @@
+COmandos para crear desde terminal en django
+
+(para activar la shell de python)
+py manage.py shell 
+
+from biblioteca.models import Llibre
+
+llibre = Llibre(titol='My libro', autor='Yo')
+llibre.save()
+
