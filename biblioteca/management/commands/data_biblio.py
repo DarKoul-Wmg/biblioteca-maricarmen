@@ -38,7 +38,7 @@ class Command(BaseCommand):
                 titol=titol,
                 autor=fake.name(),
                 llengua=llengua_obj,  # Ahora asignamos la instancia de Llengua
-                isbn=fake.isbn13(),
+                ISBN=fake.isbn13(),
                 pagines=randint(100, 1000)
             )
             
